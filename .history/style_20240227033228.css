@@ -1,0 +1,126 @@
+.firstViewWrap{
+    width: 100vw;
+    height: 570px;
+    background-image: url("./img/bgcMain.png");
+}
+
+.firstViewEffect{
+    width: 100%;
+    height: 100%;
+    background-image: url("./img/bgcBler.png");
+    overflow: hidden;
+}
+
+.contentWrap{
+    max-width: 1080px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+
+header{
+    padding: 30px 0px 0px 20px;
+}
+
+.firstViewMainImg{
+    width: 740px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/* formstyle */
+
+form{
+    width: 369px;
+    padding: 24px 20px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.formFlexStyle{
+    display: flex;
+    flex-direction: column;
+}
+
+.formDetail{
+    margin: 0 auto;
+}
+
+.formFlexStyle > label{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.formFlexStyle > label > span{
+    background-color: rgba(217, 132, 33, 1);
+    color: #fff;
+    font-size: 13px;
+    border-radius: 2px;
+    margin-right: 9px;
+    padding: 4px 8px;
+}
+
+.formFlexStyle > input{
+    width: 328px;
+    height: 39px;
+    border: solid 1.03px rgba(230, 230, 230, 1);
+    background-color: rgba(255, 248, 237, 1);
+    margin-bottom: 12px;
+}
+
+.formFlexStyle > textarea{
+    width: 328.65px;
+    height: 78.05px;
+    border: solid 1.03px rgba(230, 230, 230, 1);
+    background-color: rgba(249, 249, 249, 1);
+}
+
+.formWrap > p{
+    font-size: 11px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.consent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+}
+
+.consent > label{
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+.formWrap > button{
+    display: block;
+    width: 203.35px;
+    height: 50px;
+    background-color: rgba(0, 200, 83, 1);
+    border: solid 1px rgba(0, 200, 83, 1);
+    color: #fff;
+    border-radius: 30px;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+
+
+.specializedIntroductionWrap > h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.specializedIntroductionWrap > h2 > span{
+    color: rgba(179, 145, 73, 1);
+}

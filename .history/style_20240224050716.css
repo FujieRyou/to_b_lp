@@ -1,0 +1,28 @@
+.firstViewWrap{
+    width: 100vw;
+    height: 570px;
+    background-image: url("./img/bgcMain.png");
+}
+
+.firstViewEffect{
+    width: 100%;
+    height: 100%;
+    background-image: url("./img/bgcBler.png");
+}
+
+
+
+
+
+
+
+
+/* formstyle */
+.formFlexStyle{
+    display: flex;
+    flex-direction: column;
+}
+
+.formFlexStyle > input{
+    border: solid 1.03px rgba(230, 230, 230, 1);
+}
