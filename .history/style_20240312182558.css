@@ -532,18 +532,13 @@ form{
     text-align: center;
 }
 
-footer{
-    background: linear-gradient(282.64deg, #D87400 -1.25%, #F49425 8.28%, #FFA51D 17.42%, #FFB913 80.49%, #FFA63E 97.98%);
-}
 
 .footerWrap{
-    width: 100%;
-    height: 100%;
+    background: linear-gradient(282.64deg, #D87400 -1.25%, #F49425 8.28%, #FFA51D 17.42%, #FFB913 80.49%, #FFA63E 97.98%);
+    padding-top: 56px;
     background-image: url("./img/bgcBler.png");
     background-size: cover;
     overflow: hidden;
-    padding-top: 56px;
-
 }
 
 .footerWrap > h2{
